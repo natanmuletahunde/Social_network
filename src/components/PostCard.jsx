@@ -12,11 +12,13 @@ export default function PostCard({ post }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-4 space-y-4 transition-all transform hover:scale-105 hover:shadow-2xl w-[calc(33.333%-1.5rem)]">
       {/* Image */}
-      <img
-        src={post.image}
-        alt={post.name}
-        className="w-full h-48 object-cover rounded-md"
-      />
+      <div className="w-full h-48 relative">
+        <img
+          src={post.image}
+          alt={post.name}
+          className="w-full h-full object-cover rounded-md"
+        />
+      </div>
       {/* Name */}
       <h2 className="text-lg font-semibold">{post.name}</h2>
       {/* Description */}

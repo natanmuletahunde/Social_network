@@ -56,13 +56,13 @@ export default function Newsfeed() {
       id: 9,
       name: "David Moore",
       description: "Just completed a challenging project!",
-      image: "https://via.placeholder.com/150",
+      image: "https://www.ltgdc.org.uk/wp-content/uploads/2021/05/Building-Consultancy.jpeg",
     },
     {
       id: 10,
       name: "Sophia Lee",
       description: "Exploring the city today!",
-      image: "https://via.placeholder.com/150",
+      image: "https://tripjive.com/wp-content/uploads/2024/09/Jersey-City-historic-neighborhoods-1-1024x585.jpg",
     },
   ];
 
