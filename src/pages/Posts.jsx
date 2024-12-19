@@ -10,7 +10,7 @@ export default function Newsfeed() {
   return (
     <div className="p-4 bg-gray-100 min-h-screen">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4">Newsfeed</h1>
+        <h1 className="text-2xl font-bold mb-4">Post</h1>
         {posts.map((post) => (
           <PostCard key={post.id} post={post} />
         ))}

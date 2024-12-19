@@ -1,15 +1,15 @@
 // src/App.jsx
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Chat from "./pages/Chat";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Newsfeed from "./pages/Newsfeed";
+import Newsfeed from "./pages/Posts";
+import Notifications from "./pages/Notification";
 import Profile from "./pages/Profile";
-import Chat from "./pages/Chat";
-import Notifications from "./pages/Notifications";
 import Settings from "./pages/Settings";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
